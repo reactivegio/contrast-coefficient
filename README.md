@@ -19,4 +19,4 @@ and RsRGB, GsRGB, and BsRGB are defined as:
 This project (written in react) get a form in which insert 2 color value in hexadecimal or rgb and calculate the contrast ratio. You cannot worry of the lighter and darker color because it is automatically calculated. Because the calculation is done on rgb color if you insert an hex I calculate rgb for you.
 
 https://reactivegio.github.io/contrast-coefficient/
-####Enjoy it!
+#### Enjoy it!
