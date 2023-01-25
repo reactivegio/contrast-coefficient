@@ -1,24 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import AccessibleInput from './components/AccessibleInput';
 
 function App() {
-  return (
-    <div className="App">
+  return (    
+    <>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h1>Maximize accessibility:</h1> 
+      <h3>Use our form to calculate your contrast ratio and improve the readability of your project</h3>
       </header>
-    </div>
+      <AccessibleInput />
+      </>
+    
   );
 }
 

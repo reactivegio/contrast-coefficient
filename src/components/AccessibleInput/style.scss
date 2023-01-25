@@ -1,0 +1,98 @@
+label {
+	display: block;
+	font-weight: 600;
+}
+input[type="text"] {
+	padding: 12px 20px; /* Aggiungere un po' di spazio all'interno dell'input */
+	margin: 8px 0; /* Aggiungere un po' di spazio intorno all'input */
+	box-sizing: border-box; /* Assicurarsi che il padding e il margin siano inclusi nella dimensione dell'input */
+	border: 2px solid #ccc; /* Aggiungere un bordo intorno all'input */
+	border-radius: 4px; /* Arrotondare gli angoli del bordo */
+	font-size: 16px; /* Aumentare la dimensione del testo all'interno dell'input */
+	font-family: Arial, sans-serif; /* Scegliere una famiglia di caratteri leggibile */
+	&:focus {
+		border: 2px solid #555; /* Cambiare il colore del bordo quando l'input ha il focus */
+		background-color: #e9f2fe;
+		outline: none; /* Rimuovere l'outline predefinito del browser */
+	}
+	&.error {
+		border-color: #8b0000;
+	}
+}
+small {
+	display: block;
+	font-size: 14px;
+	color: #444;
+}
+/* Stile per il contenitore del modulo */
+.form-container {
+	width: 100%; /* Impostare la larghezza del modulo */
+	margin: 0 auto; /* Centrare il modulo orizzontalmente */
+	padding: 20px; /* Aggiungere un po' di spazio intorno al modulo */
+	background-color: #f5f5f5; /* Impostare un colore di sfondo per il modulo */
+	border-radius: 10px; /* Arrotondare gli angoli del modulo */
+}
+
+/* Stile per i campi di input */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	width: 100%; /* Impostare la larghezza del campo di input */
+	padding: 12px 20px; /* Aggiungere un po' di spazio all'interno del campo di input */
+	margin: 8px 0; /* Aggiungere un po' di spazio intorno al campo di input */
+	box-sizing: border-box; /* Assicurarsi che il padding e il margin siano inclusi nella dimensione del campo di input */
+	border: 2px solid #ccc; /* Aggiungere un bordo intorno al campo di input */
+	border-radius: 4px; /* Arrotondare gli angoli del bordo */
+	font-size: 16px; /* Aumentare la dimensione del testo all'interno del campo di input */
+	font-family: Arial, sans-serif; /* Scegliere una famiglia di caratteri leggibile */
+}
+
+/* Stile per il bottone di invio */
+input[type="submit"] {
+	width: 100%; /* Impostare la larghezza del bottone di invio */
+	font-size: 16px;
+	background-color: #004e9a; /* Impostare un colore di sfondo per*/
+	color: white; // Impostare il colore del testo del bottone di invio /
+	padding: 14px 20px; // Aggiungere un po' di spazio all'interno del bottone di invio /
+	margin: 8px 0; // Aggiungere un po' di spazio intorno al bottone di invio /
+	border: none; // Rimuovere il bordo del bottone di invio /
+	border-radius: 4px; // Arrotondare gli angoli del bottone di invio /
+	cursor: pointer; // Cambiare il cursore del mouse quando si passa sopra il bottone di invio */
+}
+
+/* Stile per il bottone di invio quando è attivo */
+input[type="submit"]:hover {
+	background-color: #428cd4; // Cambiare il colore di sfondo del bottone di invio quando è attivo */
+}
+
+.task-box {
+	position: relative;
+	border-radius: 12px;
+	width: 100%;
+	margin: 20px 0;
+	padding: 16px;
+	cursor: pointer;
+	box-shadow: 2px 2px 4px 0px #ebebeb;
+}
+
+.yellow {
+	background-color: var(--box-color-yellow);
+}
+.green {
+	background-color: var(--box-color-green);
+}
+.red {
+	background-color: var(--box-color-red);
+}
+
+.description-box {
+	font-size: 14px;
+	font-weight: 500;
+	opacity: 0.7;
+}
+
+.coefficient-value {
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+}
